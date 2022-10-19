@@ -1,0 +1,219 @@
+{{ header }}
+<div id="information-contact" class="container">
+  <ul class="breadcrumb">
+    {% for breadcrumb in breadcrumbs %}
+    <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+    {% endfor %}
+  </ul>
+  <div class="row">{{ column_left }}
+    {% if column_left and column_right %}
+    {% set class = 'col-sm-6' %}
+    {% elseif column_left or column_right %}
+    {% set class = 'col-sm-9' %}
+    {% else %}
+    {% set class = 'col-sm-12' %}
+    {% endif %}
+    <div id="content" class="{{ class }}">{{ content_top }}
+      <h1>{{ heading_title }}</h1>
+      <h3>{{ text_location }}</h3>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="row">
+            {% if image %}
+            <div class="col-sm-3"><img src="{{ image }}" alt="{{ store }}" title="{{ store }}" class="img-thumbnail" /></div>
+            {% endif %}
+            <div class="col-sm-3"><strong>{{ store }}</strong><br />
+              <address>
+              {{ address }}
+              </address>
+              {% if geocode %}
+              <a href="https://maps.google.com/maps?q={{ geocode|url_encode }}&hl={{ geocode_hl }}&t=m&z=15" target="_blank" class="btn btn-info"><i class="fa fa-map-marker"></i> {{ button_map }}</a>
+              {% endif %}
+            </div>
+            <div class="col-sm-3"><strong>{{ text_telephone }}</strong><br>
+              {{ telephone }}<br />
+              <br />
+              {% if fax %}
+              <strong>{{ text_fax }}</strong><br>
+              {{ fax }}
+              {% endif %}
+            </div>
+            <div class="col-sm-3">
+              {% if open %}
+              <strong>{{ text_open }}</strong><br />
+              {{ open }}<br />
+              <br />
+              {% endif %}
+              {% if comment %}
+              <strong>{{ text_comment }}</strong><br />
+              {{ comment }}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% if locations %}
+      <h3>{{ text_store }}</h3>
+      <div class="panel-group" id="accordion">
+        {% for location in locations %}
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><a href="#collapse-location{{ location.location_id }}" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion">{{ location.name }} <i class="fa fa-caret-down"></i></a></h4>
+          </div>
+          <div class="panel-collapse collapse" id="collapse-location{{ location.location_id }}">
+            <div class="panel-body">
+              <div class="row">
+                {% if location.image %}
+                <div class="col-sm-3"><img src="{{ location.image }}" alt="{{ location.name }}" title="{{ location.name }}" class="img-thumbnail" /></div>
+                {% endif %}
+                <div class="col-sm-3"><strong>{{ location.name }}</strong><br/>
+                  <address>
+                  {{ location.address }}
+                  </address>
+                  {% if location.geocode %}
+                  <a href="https://maps.google.com/maps?q={{ location.geocode|url_encode }}&hl={{ geocode_hl }}&t=m&z=15" target="_blank" class="btn btn-info"><i class="fa fa-map-marker"></i> {{ button_map }}</a>
+                  {% endif %}
+                </div>
+                <div class="col-sm-3"> <strong>{{ text_telephone }}</strong><br/>
+                  {{ location.telephone }}<br/>
+                  <br/>
+                  {% if location.fax %}
+                  <strong>{{ text_fax }}</strong><br/>
+                  {{ location.fax }}
+                  {% endif %}
+                </div>
+                <div class="col-sm-3">
+                  {% if location.open %}
+                  <strong>{{ text_open }}</strong><br/>
+                  {{ location.open }}<br/>
+                  <br/>
+                  {% endif %}
+                  {% if location.comment %}
+                  <strong>{{ text_comment }}</strong><br/>
+                  {{ location.comment }}
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <form action="{{ action }}" method="post" enctype="multipart/form-data" class="form-horizontal">
+        <fieldset>
+          <legend>{{ text_contact }}</legend>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-name">{{ entry_name }}</label>
+            <div class="col-sm-10">
+              <input type="text" name="name" value="{{ name }}" id="input-name" class="form-control" />
+              {% if error_name %}
+              <div class="text-danger">{{ error_name }}</div>
+              {% endif %}
+            </div>
+          </div>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-email">{{ entry_email }}</label>
+            <div class="col-sm-10">
+              <input type="text" name="email" value="{{ email }}" id="input-email" class="form-control" />
+              {% if error_email %}
+              <div class="text-danger">{{ error_email }}</div>
+              {% endif %}
+            </div>
+          </div>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-enquiry">{{ entry_enquiry }}</label>
+            <div class="col-sm-10">
+              <textarea name="enquiry" rows="10" id="input-enquiry" class="form-control">{{ enquiry }}</textarea>
+              {% if error_enquiry %}
+              <div class="text-danger">{{ error_enquiry }}</div>
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="form-group required">
+                      <label class="col-sm-2 control-label">{{ text_select_file }}</label>
+                      <div class="col-sm-10">
+                          <button type="button" id="button-upload" data-loading-text="{{ text_loading }}" class="btn btn-default btn-block">
+                              <i class="fa fa-upload"></i>{{ text_upload_file }}
+                          </button>
+                          <input type="hidden" name="file" value="" />
+                          <span class="success"></span>
+                      </div>
+                  </div>
+          {{ captcha }}
+        </fieldset>
+        <div class="buttons">
+          <div class="pull-right">
+            <input class="btn btn-primary" type="submit" value="{{ button_submit }}" />
+          </div>
+        </div>
+      </form>
+      {{ content_bottom }}</div>
+    {{ column_right }}</div>
+</div>
+
+ <script type="text/javascript"><!--
+
+            $('button[id^=\'button-upload\']').on('click', function() {
+                    var node = this;
+
+                    $('#form-upload').remove();
+
+                    $('body').prepend('<form enctype="multipart/form-data" id="form-upload" style="display: none;"><input type="file" name="file" /></form>');
+
+                    $('#form-upload input[name=\'file\']').trigger('click');
+
+                    $('#form-upload input[name=\'file\']').on('change', function() {
+                            $.ajax({
+                                    url: 'index.php?route=information/contact/upload',
+                                    type: 'post',
+                                    dataType: 'json',
+                                    data: new FormData($(this).parent()[0]),
+                                    cache: false,
+                                    contentType: false,
+                                    processData: false,
+                                    beforeSend: function() {
+                                            $(node).button('loading');
+                                    },
+                                    complete: function() {
+                                            $(node).button('reset');
+                                    },
+                                    success: function(json) {
+                                            $('.text-danger').remove();
+
+                                            if (json['error']) {
+                                                    $(node).parent().find('input').after('<div class="text-danger">' + json['error'] + '</div>');
+                                            }
+
+                                            if (json['success']) {
+                                                    alert(json['success']);
+                                                    $(node).parent().find('.success').html(" Последний файл ");
+                                                    $(node).parent().find('.success').append(json['file']);
+
+                                                    if($(node).parent().find('input').attr('value') == '') {
+                                                        $(node).parent().find('input').attr('value', json['file']);
+                                                    }else{     
+                                                    if($(node).parent().find("input[name=\'file1\']").length == 0){
+                                                        $(node).parent().find('input').after('<input type="hidden" name="file1" value="" />');
+                                                        $(node).parent().find('input[name=\'file1\']').attr('value', json['file']);
+                                                    } else{
+                                                        if($(node).parent().find("input[name=\'file2\']").length == 0){
+                                                            $(node).parent().find('input').after('<input type="hidden" name="file2" value="" />');
+                                                            $(node).parent().find('input[name=\'file2\']').attr('value', json['file']);
+                                                        }else{
+                                                        $(node).parent().find('input[name=\'file2\']').attr('value', json['file']);
+                                                        }                                                          
+                                                    }  
+                                                    }
+                                                    
+                                            }
+                                    },
+                                    error: function(xhr, ajaxOptions, thrownError) {
+                                            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                                    }
+                            });
+                    });
+            });
+            //--></script>
+{{ footer }}

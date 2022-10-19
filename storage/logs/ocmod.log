@@ -1,0 +1,1004 @@
+2022-10-18 11:19:38 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+2022-10-18 13:44:01 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+2022-10-18 14:43:54 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+2022-10-18 17:34:38 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+2022-10-18 19:22:21 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 203
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 37
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 19:40:55 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 203
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 37
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 19:41:28 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+2022-10-18 19:42:06 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 203
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 37
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 19:48:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 203
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 37
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 19:55:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+2022-10-18 20:08:43 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 203
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 37
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 20:35:30 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+2022-10-18 22:18:30 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 203
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 37
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 23:20:36 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+2022-10-18 23:20:53 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+2022-10-18 23:21:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 215
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 44
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 23:26:31 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 215
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 44
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 23:28:28 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+2022-10-18 23:28:49 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 216
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 44
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 23:28:57 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 216
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 44
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 23:44:47 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 216
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 44
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 23:45:33 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 216
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 44
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 23:46:31 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 220
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 44
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
+2022-10-18 23:50:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: File Upload
+
+FILE: catalog/view/theme/default/template/information/contact.twig
+CODE: {{ captcha }}
+LINE: 144
+CODE: {{ footer }}
+LINE: 220
+
+FILE: catalog/controller/information/contact.php
+CODE: $mail->send();
+LINE: 44
+CODE: public function index() {
+LINE: 81
+
+FILE: catalog/language/en-gb/information/contact.php
+CODE: $_['text_success']
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/language/ru-ru/information/contact.php
+CODE: $_['text_success']
+LINE: 19
+----------------------------------------------------------------
